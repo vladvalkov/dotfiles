@@ -12,7 +12,7 @@ EOF
 
 {{ else if eq .osid "linux-ubuntu" -}}
 #!/bin/bash
-apt install {{ range .packages.ubuntu  }}{{.}} {{end}}
+sudo apt install {{ range .packages.ubuntu  }}{{.}} {{end}}
 {{ end -}}
 
 
