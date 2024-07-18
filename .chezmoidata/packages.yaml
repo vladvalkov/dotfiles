@@ -35,6 +35,5 @@ packages:
     - 'neovim'
     - 'fzf'
     - 'eza'
-    - 'pyenv'
     # - 'golang-go'
     # - 'rustup'
