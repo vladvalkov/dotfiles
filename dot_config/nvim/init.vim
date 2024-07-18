@@ -10,6 +10,8 @@ Plug 'stevearc/oil.nvim'
 Plug 'sindrets/diffview.nvim'
 Plug 'DreamMaoMao/yazi.nvim'
 Plug 'numToStr/Comment.nvim'
+Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' } " Recommended, not required.
+Plug 'daltonmenezes/aura-theme', { 'rtp': 'packages/neovim' }
 
 call plug#end()
 
@@ -198,3 +200,5 @@ rt.setup({
 EOF
 
 set clipboard=unnamed
+
+colorscheme aura-dark " Or any Aura theme available
