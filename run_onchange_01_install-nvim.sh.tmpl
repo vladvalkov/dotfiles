@@ -3,7 +3,7 @@
 if [ -x "$(command -v nvim)" ]; then
 	nvim +'PlugInstall --sync' +qa --headless
 fi
-{{ else if eq .osid "linux-debian" -}}
+{{ else if eq .osid "linux-ubuntu" -}}
 if [ -x "$(command -v nvim)" ]; then
 	nvim +'PlugInstall --sync' +qa --headless
 fi
