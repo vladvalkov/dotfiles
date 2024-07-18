@@ -1,0 +1,10 @@
+#!/bin/bash
+{{ if eq .chezmoi.os "darwin" -}}
+if [ -x "$(command -v nvim)" ]; then
+	nvim +'PlugInstall --sync' +qa --headless
+fi
+{{ else if eq .osid "linux-debian" -}}
+if [ -x "$(command -v nvim)" ]; then
+	nvim +'PlugInstall --sync' +qa --headless
+fi
+{{ end -}}

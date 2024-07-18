@@ -1,0 +1,4 @@
+.oh-my-zsh/cache/*
+**.zwc
+**.swp
+**.swn

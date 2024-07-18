@@ -1,0 +1,36 @@
+packages:
+  darwin:
+    brews:
+    - 'git'
+    - 'awscli'
+    - 'fzf'
+    - 'graphviz'
+    - 'neovim'
+    # Backend
+    - 'rustup'
+    - 'go'
+    - 'golangci-lint'
+    - 'nvm'
+    - 'pyenv'
+    # Security
+    - 'nmap'
+    - 'sqlmap'
+      
+    casks:
+    - 'miniconda'
+    - 'firefox'
+    - 'google-chrome'
+    - 'bruno'
+    # - 'docker'
+    # - 'obsidian'
+    # - 'sublime-text'
+    # - 'goland'
+    # - 'rustrover'
+    # - 'fleet'
+    # - 'webstorm'
+    # Security
+    # - 'burp-suite'
+  ubuntu:
+    - 'neovim'
+    # - 'golang-go'
+    # - 'rustup'
