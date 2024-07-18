@@ -31,6 +31,7 @@ packages:
     # Security
     # - 'burp-suite'
   ubuntu:
+    - 'zsh'
     - 'neovim'
     # - 'golang-go'
     # - 'rustup'

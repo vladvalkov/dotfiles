@@ -12,7 +12,7 @@ EOF
 
 {{ else if eq .osid "linux-debian" }}
 #!/bin/bash
-apt install {{ range .packages  }}{{.}} {{end}}
+apt install {{ range .packages.ubuntu  }}{{.}} {{end}}
 {{ end -}}
 
 
