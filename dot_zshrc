@@ -109,7 +109,7 @@ zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh')
 alias myip="curl https://lumtest.com/myip.json"
 
 #eval "$(conda "shell.$(basename "${SHELL}")" hook)"
-source "$HOME/export-esp.sh"
+#source "$HOME/export-esp.sh"
 
 # Load pyenv automatically
 export PYENV_ROOT="$HOME/.pyenv"

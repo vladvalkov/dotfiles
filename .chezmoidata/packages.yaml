@@ -6,6 +6,7 @@ packages:
     - 'fzf'
     - 'graphviz'
     - 'neovim'
+    - 'eza'
     # Backend
     - 'rustup'
     - 'go'
@@ -17,7 +18,6 @@ packages:
     - 'sqlmap'
       
     casks:
-    - 'miniconda'
     - 'firefox'
     - 'google-chrome'
     - 'bruno'
@@ -33,5 +33,8 @@ packages:
   ubuntu:
     - 'zsh'
     - 'neovim'
+    - 'fzf'
+    - 'eza'
+    - 'pyenv'
     # - 'golang-go'
     # - 'rustup'
