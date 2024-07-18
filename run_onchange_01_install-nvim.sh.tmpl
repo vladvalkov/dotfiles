@@ -7,4 +7,6 @@ fi
 if [ -x "$(command -v nvim)" ]; then
 	nvim +'PlugInstall --sync' +qa --headless
 fi
+
+chsh -s $(which zsh)
 {{ end -}}
