@@ -12,5 +12,5 @@ if [ -x "$(command -v nvim)" ]; then
 	nvim +'PlugInstall --sync' +qa --headless
 fi
 
-chsh -s $(which zsh)
+sudo chsh -s $(which zsh) $(whoami)
 {{ end -}}
