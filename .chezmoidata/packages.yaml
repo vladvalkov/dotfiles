@@ -29,15 +29,14 @@ packages:
     - 'docker'
     - 'obsidian'
     - 'sublime-text'
-    - 'goland'
-    - 'rustrover'
-    - 'fleet'
-    - 'webstorm'
-    - 'pycharm'
     # Security
     - 'burp-suite'
     - 'spotify'
+    
     - 'devutils'
+    - 'k9s'
+    - 'jetbrains-toolbox'
+
   ubuntu:
     - 'zsh'
     - 'neovim'
