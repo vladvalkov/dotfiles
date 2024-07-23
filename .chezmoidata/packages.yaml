@@ -18,6 +18,7 @@ packages:
     # Security
     - 'nmap'
     - 'sqlmap'
+    - 'k9s'
       
     casks:
     - 'iterm2'
@@ -34,7 +35,6 @@ packages:
     - 'spotify'
     
     - 'devutils'
-    - 'k9s'
     - 'jetbrains-toolbox'
 
   ubuntu:
