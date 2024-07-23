@@ -13,7 +13,6 @@ DISABLE_AUTO_UPDATE="true"
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-HOMEBREW_BUNDLE_FILE=~/.Brewfile
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -37,7 +36,12 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 
-source "$HOME/.cargo/env"
+export PATH="/opt/homebrew/bin:$PATH"
+
+if [ -e "$HOME/.cargo/env" ]; then
+	source "$HOME/.cargo/env"
+fi
+
 
 # User configuration
 export PATH=$PATH:$HOME/go/bin
@@ -68,9 +72,10 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-eval $(thefuck --alias)
+if [[ -x $(command -v thefuck) ]]; then
+	eval $(thefuck --alias)
+fi
 
-alias vi="nvim"
 alias ccat="pygmentize -g"
 
 alias please="sudo"
