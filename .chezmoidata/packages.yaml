@@ -36,6 +36,7 @@ packages:
     
     - 'devutils'
     - 'jetbrains-toolbox'
+    - 'google-cloud-sdk'
 
   ubuntu:
     - 'zsh'
