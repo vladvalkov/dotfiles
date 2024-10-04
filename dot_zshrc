@@ -135,6 +135,7 @@ alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:2.1.1'
 
 if [ -e "$(brew --prefix)/share/google-cloud-sdk" ]; then
 	source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
+	source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
 fi
 
 
